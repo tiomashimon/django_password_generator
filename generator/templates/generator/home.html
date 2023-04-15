@@ -1,5 +1,4 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-
 <div class="container text-center">
   <h1>Password generator</h1>
   <form action="{% url 'password' %}">
@@ -21,7 +20,7 @@
     <option value="18"> 18</option>
   </select> Lenght
   <br>
-  <input type="checkbox" name="uppercase"> Uppercase
+  <input type="checkbox" name="uppercase" checked="checked" > Uppercase
   <br>
   <input type="checkbox" name="numbers"> Numbers
   <br>
